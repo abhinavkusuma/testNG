@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-12T19:28:42 IST" name="Default suite" finished-at="2025-04-12T19:28:42 IST" duration-ms="111">
+    <groups>
+    </groups>
+    <test started-at="2025-04-12T19:28:42 IST" name="Default test" finished-at="2025-04-12T19:28:42 IST" duration-ms="111">
+      <class name="sele.testng_test.Login">
+        <test-method signature="closeapp()[pri:0, instance:sele.testng_test.Login@5e2c3d18]" started-at="2025-04-12T19:28:42 IST" name="closeapp" finished-at="2025-04-12T19:28:42 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method signature="login()[pri:2, instance:sele.testng_test.Login@5e2c3d18]" started-at="2025-04-12T19:28:42 IST" name="login" finished-at="2025-04-12T19:28:42 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="openapp()[pri:5, instance:sele.testng_test.Login@5e2c3d18]" started-at="2025-04-12T19:28:42 IST" name="openapp" finished-at="2025-04-12T19:28:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+      </class> <!-- sele.testng_test.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
