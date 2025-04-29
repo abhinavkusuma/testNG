@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sele.testng_test.OrangeHRM">
+      <class name="sele.testng_test.CheckFlow_Validation">
         <methods>
-          <include name="closeapp"/>
-          <include name="testlogo"/>
+          <include name="tearDown"/>
+          <include name="addItemToCart"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- sele.testng_test.OrangeHRM -->
+      </class> <!-- sele.testng_test.CheckFlow_Validation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
