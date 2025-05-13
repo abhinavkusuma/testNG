@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sele.testng_test.OrangeHRM">
+      <class name="sele.testng_test.Parallel_Execution">
         <methods>
-          <include name="closeapp"/>
-          <include name="testlogo"/>
+          <include name="testTitle"/>
+          <include name="testLogo"/>
+          <include name="tearDown"/>
+          <include name="testURL"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- sele.testng_test.OrangeHRM -->
+      </class> <!-- sele.testng_test.Parallel_Execution -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
