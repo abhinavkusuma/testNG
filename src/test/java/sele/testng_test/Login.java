@@ -7,7 +7,7 @@ public class Login {
 	void openapp() {
 		System.out.println("Opening Application.....");
 	}
-	@Test(priority = 2)
+	@Test(priority = 2)    
 	void login() {
 		System.out.println("Login Application.....");
 	}
