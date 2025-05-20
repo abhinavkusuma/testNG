@@ -1,116 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-13T11:57:24 IST" name="Suite" finished-at="2025-05-13T11:57:49 IST" duration-ms="25419">
+  <suite started-at="2025-05-20T17:39:37 IST" name="Default suite" finished-at="2025-05-20T17:39:51 IST" duration-ms="14352">
     <groups>
     </groups>
-    <test started-at="2025-05-13T11:57:24 IST" name="chrometest" finished-at="2025-05-13T11:57:42 IST" duration-ms="18098">
-      <class name="sele.testng_test.Login">
-        <test-method signature="openapp()[pri:1, instance:sele.testng_test.Login@57bc27f5]" started-at="2025-05-13T11:57:24 IST" name="openapp" finished-at="2025-05-13T11:57:24 IST" duration-ms="11" status="PASS">
+    <test started-at="2025-05-20T17:39:37 IST" name="Default test" finished-at="2025-05-20T17:39:51 IST" duration-ms="14352">
+      <class name="sele.testng_test.OrangeHRM">
+        <test-method signature="openapp()[pri:1, instance:sele.testng_test.OrangeHRM@17fc391b]" started-at="2025-05-20T17:39:37 IST" name="openapp" finished-at="2025-05-20T17:39:46 IST" duration-ms="8922" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method signature="login()[pri:2, instance:sele.testng_test.Login@57bc27f5]" started-at="2025-05-13T11:57:37 IST" name="login" finished-at="2025-05-13T11:57:37 IST" duration-ms="13" status="PASS">
+        <test-method signature="testlogo()[pri:2, instance:sele.testng_test.OrangeHRM@17fc391b]" started-at="2025-05-20T17:39:46 IST" name="testlogo" finished-at="2025-05-20T17:39:49 IST" duration-ms="3065" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="closeapp()[pri:3, instance:sele.testng_test.Login@57bc27f5]" started-at="2025-05-13T11:57:37 IST" name="closeapp" finished-at="2025-05-13T11:57:37 IST" duration-ms="32" status="PASS">
+        </test-method> <!-- testlogo -->
+        <test-method signature="testlogin()[pri:3, instance:sele.testng_test.OrangeHRM@17fc391b]" started-at="2025-05-20T17:39:49 IST" name="testlogin" finished-at="2025-05-20T17:39:49 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method signature="closeapp()[pri:4, instance:sele.testng_test.OrangeHRM@17fc391b]" started-at="2025-05-20T17:39:49 IST" name="closeapp" finished-at="2025-05-20T17:39:51 IST" duration-ms="1961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
-      </class> <!-- sele.testng_test.Login -->
-      <class name="sele.testng_test.Parallel_Execution">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:sele.testng_test.Parallel_Execution@65f8f5ae]" started-at="2025-05-13T11:57:24 IST" name="setup" finished-at="2025-05-13T11:57:34 IST" duration-ms="10183" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogo()[pri:1, instance:sele.testng_test.Parallel_Execution@65f8f5ae]" started-at="2025-05-13T11:57:34 IST" name="testLogo" finished-at="2025-05-13T11:57:37 IST" duration-ms="3105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogo -->
-        <test-method signature="testTitle()[pri:2, instance:sele.testng_test.Parallel_Execution@65f8f5ae]" started-at="2025-05-13T11:57:37 IST" name="testTitle" finished-at="2025-05-13T11:57:37 IST" duration-ms="309" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTitle -->
-        <test-method signature="testURL()[pri:3, instance:sele.testng_test.Parallel_Execution@65f8f5ae]" started-at="2025-05-13T11:57:37 IST" name="testURL" finished-at="2025-05-13T11:57:38 IST" duration-ms="328" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sele.testng_test.Parallel_Execution@65f8f5ae]" started-at="2025-05-13T11:57:38 IST" name="tearDown" finished-at="2025-05-13T11:57:42 IST" duration-ms="3869" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- sele.testng_test.Parallel_Execution -->
-    </test> <!-- chrometest -->
-    <test started-at="2025-05-13T11:57:24 IST" name="edgetest" finished-at="2025-05-13T11:57:45 IST" duration-ms="21892">
-      <class name="sele.testng_test.Parallel_Execution">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:sele.testng_test.Parallel_Execution@2d0399f4]" started-at="2025-05-13T11:57:24 IST" name="setup" finished-at="2025-05-13T11:57:43 IST" duration-ms="19137" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogo()[pri:1, instance:sele.testng_test.Parallel_Execution@2d0399f4]" started-at="2025-05-13T11:57:43 IST" name="testLogo" finished-at="2025-05-13T11:57:43 IST" duration-ms="157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogo -->
-        <test-method signature="testTitle()[pri:2, instance:sele.testng_test.Parallel_Execution@2d0399f4]" started-at="2025-05-13T11:57:43 IST" name="testTitle" finished-at="2025-05-13T11:57:43 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTitle -->
-        <test-method signature="testURL()[pri:3, instance:sele.testng_test.Parallel_Execution@2d0399f4]" started-at="2025-05-13T11:57:43 IST" name="testURL" finished-at="2025-05-13T11:57:43 IST" duration-ms="24" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sele.testng_test.Parallel_Execution@2d0399f4]" started-at="2025-05-13T11:57:43 IST" name="tearDown" finished-at="2025-05-13T11:57:45 IST" duration-ms="2471" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- sele.testng_test.Parallel_Execution -->
-    </test> <!-- edgetest -->
-    <test started-at="2025-05-13T11:57:24 IST" name="firefoxtest" finished-at="2025-05-13T11:57:49 IST" duration-ms="25419">
-      <class name="sele.testng_test.Parallel_Execution">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:sele.testng_test.Parallel_Execution@66ea810]" started-at="2025-05-13T11:57:24 IST" name="setup" finished-at="2025-05-13T11:57:47 IST" duration-ms="23380" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogo()[pri:1, instance:sele.testng_test.Parallel_Execution@66ea810]" started-at="2025-05-13T11:57:47 IST" name="testLogo" finished-at="2025-05-13T11:57:47 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogo -->
-        <test-method signature="testTitle()[pri:2, instance:sele.testng_test.Parallel_Execution@66ea810]" started-at="2025-05-13T11:57:47 IST" name="testTitle" finished-at="2025-05-13T11:57:47 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTitle -->
-        <test-method signature="testURL()[pri:3, instance:sele.testng_test.Parallel_Execution@66ea810]" started-at="2025-05-13T11:57:47 IST" name="testURL" finished-at="2025-05-13T11:57:47 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sele.testng_test.Parallel_Execution@66ea810]" started-at="2025-05-13T11:57:47 IST" name="tearDown" finished-at="2025-05-13T11:57:49 IST" duration-ms="1914" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- sele.testng_test.Parallel_Execution -->
-    </test> <!-- firefoxtest -->
-  </suite> <!-- Suite -->
+      </class> <!-- sele.testng_test.OrangeHRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
