@@ -10,6 +10,7 @@ public class OrangeHRM {
 	WebDriver driver;
 	@Test(priority=1)
 	void openapp() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\91934\\Downloads\\chromedriver-win64");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
