@@ -5,12 +5,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class OrangeHRM {
+	
 	WebDriver driver;
 	@Test(priority=1)
 	void openapp() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\91934\\Downloads\\chromedriver-win64");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");

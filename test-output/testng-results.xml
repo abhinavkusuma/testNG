@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-20T17:39:37 IST" name="Default suite" finished-at="2025-05-20T17:39:51 IST" duration-ms="14352">
+  <suite started-at="2025-05-21T12:53:26 IST" name="Default suite" finished-at="2025-05-21T12:53:37 IST" duration-ms="10875">
     <groups>
     </groups>
-    <test started-at="2025-05-20T17:39:37 IST" name="Default test" finished-at="2025-05-20T17:39:51 IST" duration-ms="14352">
+    <test started-at="2025-05-21T12:53:26 IST" name="Default test" finished-at="2025-05-21T12:53:37 IST" duration-ms="10875">
       <class name="sele.testng_test.OrangeHRM">
-        <test-method signature="openapp()[pri:1, instance:sele.testng_test.OrangeHRM@17fc391b]" started-at="2025-05-20T17:39:37 IST" name="openapp" finished-at="2025-05-20T17:39:46 IST" duration-ms="8922" status="PASS">
+        <test-method signature="openapp()[pri:1, instance:sele.testng_test.OrangeHRM@52f27fbd]" started-at="2025-05-21T12:53:26 IST" name="openapp" finished-at="2025-05-21T12:53:33 IST" duration-ms="6979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method signature="testlogo()[pri:2, instance:sele.testng_test.OrangeHRM@17fc391b]" started-at="2025-05-20T17:39:46 IST" name="testlogo" finished-at="2025-05-20T17:39:49 IST" duration-ms="3065" status="PASS">
+        <test-method signature="testlogo()[pri:2, instance:sele.testng_test.OrangeHRM@52f27fbd]" started-at="2025-05-21T12:53:33 IST" name="testlogo" finished-at="2025-05-21T12:53:36 IST" duration-ms="3055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlogo -->
-        <test-method signature="testlogin()[pri:3, instance:sele.testng_test.OrangeHRM@17fc391b]" started-at="2025-05-20T17:39:49 IST" name="testlogin" finished-at="2025-05-20T17:39:49 IST" duration-ms="329" status="PASS">
+        <test-method signature="testlogin()[pri:3, instance:sele.testng_test.OrangeHRM@52f27fbd]" started-at="2025-05-21T12:53:36 IST" name="testlogin" finished-at="2025-05-21T12:53:36 IST" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlogin -->
-        <test-method signature="closeapp()[pri:4, instance:sele.testng_test.OrangeHRM@17fc391b]" started-at="2025-05-20T17:39:49 IST" name="closeapp" finished-at="2025-05-20T17:39:51 IST" duration-ms="1961" status="PASS">
+        <test-method signature="closeapp()[pri:4, instance:sele.testng_test.OrangeHRM@52f27fbd]" started-at="2025-05-21T12:53:36 IST" name="closeapp" finished-at="2025-05-21T12:53:37 IST" duration-ms="386" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
