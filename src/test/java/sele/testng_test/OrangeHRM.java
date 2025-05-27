@@ -8,7 +8,6 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class OrangeHRM {
-	
 	WebDriver driver;
 	@Test(priority=1)
 	void openapp() {

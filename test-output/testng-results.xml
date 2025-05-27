@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-21T12:53:26 IST" name="Default suite" finished-at="2025-05-21T12:53:37 IST" duration-ms="10875">
+  <suite started-at="2025-05-27T12:29:42 IST" name="groupingsuit" finished-at="2025-05-27T12:29:42 IST" duration-ms="105">
     <groups>
+      <group name="functional">
+        <method signature="Payment_Tests.paymentinRupees()[pri:1, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinRupees" class="sele.testng_test.Payment_Tests"/>
+        <method signature="Payment_Tests.paymentinDollars()[pri:2, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinDollars" class="sele.testng_test.Payment_Tests"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="Payment_Tests.paymentinRupees()[pri:1, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinRupees" class="sele.testng_test.Payment_Tests"/>
+        <method signature="Payment_Tests.paymentinDollars()[pri:2, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinDollars" class="sele.testng_test.Payment_Tests"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Payment_Tests.paymentinRupees()[pri:1, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinRupees" class="sele.testng_test.Payment_Tests"/>
+        <method signature="Payment_Tests.paymentinDollars()[pri:2, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinDollars" class="sele.testng_test.Payment_Tests"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-05-21T12:53:26 IST" name="Default test" finished-at="2025-05-21T12:53:37 IST" duration-ms="10875">
-      <class name="sele.testng_test.OrangeHRM">
-        <test-method signature="openapp()[pri:1, instance:sele.testng_test.OrangeHRM@52f27fbd]" started-at="2025-05-21T12:53:26 IST" name="openapp" finished-at="2025-05-21T12:53:33 IST" duration-ms="6979" status="PASS">
+    <test started-at="2025-05-27T12:29:42 IST" name="groupingtests" finished-at="2025-05-27T12:29:42 IST" duration-ms="105">
+      <class name="sele.testng_test.Payment_Tests">
+        <test-method signature="paymentinRupees()[pri:1, instance:sele.testng_test.Payment_Tests@673fdbce]" started-at="2025-05-27T12:29:42 IST" name="paymentinRupees" finished-at="2025-05-27T12:29:42 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openapp -->
-        <test-method signature="testlogo()[pri:2, instance:sele.testng_test.OrangeHRM@52f27fbd]" started-at="2025-05-21T12:53:33 IST" name="testlogo" finished-at="2025-05-21T12:53:36 IST" duration-ms="3055" status="PASS">
+        </test-method> <!-- paymentinRupees -->
+        <test-method signature="paymentinDollars()[pri:2, instance:sele.testng_test.Payment_Tests@673fdbce]" started-at="2025-05-27T12:29:42 IST" name="paymentinDollars" finished-at="2025-05-27T12:29:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlogo -->
-        <test-method signature="testlogin()[pri:3, instance:sele.testng_test.OrangeHRM@52f27fbd]" started-at="2025-05-21T12:53:36 IST" name="testlogin" finished-at="2025-05-21T12:53:36 IST" duration-ms="365" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testlogin -->
-        <test-method signature="closeapp()[pri:4, instance:sele.testng_test.OrangeHRM@52f27fbd]" started-at="2025-05-21T12:53:36 IST" name="closeapp" finished-at="2025-05-21T12:53:37 IST" duration-ms="386" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeapp -->
-      </class> <!-- sele.testng_test.OrangeHRM -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- paymentinDollars -->
+      </class> <!-- sele.testng_test.Payment_Tests -->
+    </test> <!-- groupingtests -->
+  </suite> <!-- groupingsuit -->
 </testng-results>
