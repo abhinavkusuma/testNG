@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-27T12:29:42 IST" name="groupingsuit" finished-at="2025-05-27T12:29:42 IST" duration-ms="105">
+  <suite started-at="2025-05-28T13:53:02 IST" name="Default suite" finished-at="2025-05-28T13:53:18 IST" duration-ms="15528">
     <groups>
-      <group name="functional">
-        <method signature="Payment_Tests.paymentinRupees()[pri:1, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinRupees" class="sele.testng_test.Payment_Tests"/>
-        <method signature="Payment_Tests.paymentinDollars()[pri:2, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinDollars" class="sele.testng_test.Payment_Tests"/>
-      </group> <!-- functional -->
-      <group name="regression">
-        <method signature="Payment_Tests.paymentinRupees()[pri:1, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinRupees" class="sele.testng_test.Payment_Tests"/>
-        <method signature="Payment_Tests.paymentinDollars()[pri:2, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinDollars" class="sele.testng_test.Payment_Tests"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="Payment_Tests.paymentinRupees()[pri:1, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinRupees" class="sele.testng_test.Payment_Tests"/>
-        <method signature="Payment_Tests.paymentinDollars()[pri:2, instance:sele.testng_test.Payment_Tests@673fdbce]" name="paymentinDollars" class="sele.testng_test.Payment_Tests"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-05-27T12:29:42 IST" name="groupingtests" finished-at="2025-05-27T12:29:42 IST" duration-ms="105">
-      <class name="sele.testng_test.Payment_Tests">
-        <test-method signature="paymentinRupees()[pri:1, instance:sele.testng_test.Payment_Tests@673fdbce]" started-at="2025-05-27T12:29:42 IST" name="paymentinRupees" finished-at="2025-05-27T12:29:42 IST" duration-ms="13" status="PASS">
+    <test started-at="2025-05-28T13:53:02 IST" name="Default test" finished-at="2025-05-28T13:53:18 IST" duration-ms="15528">
+      <class name="pom.Login_Test_Pom">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pom.Login_Test_Pom@333d4a8c]" started-at="2025-05-28T13:53:02 IST" name="setup" finished-at="2025-05-28T13:53:16 IST" duration-ms="13430" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paymentinRupees -->
-        <test-method signature="paymentinDollars()[pri:2, instance:sele.testng_test.Payment_Tests@673fdbce]" started-at="2025-05-27T12:29:42 IST" name="paymentinDollars" finished-at="2025-05-27T12:29:42 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:0, instance:pom.Login_Test_Pom@333d4a8c]" started-at="2025-05-28T13:53:16 IST" name="testLogin" finished-at="2025-05-28T13:53:17 IST" duration-ms="1217" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paymentinDollars -->
-      </class> <!-- sele.testng_test.Payment_Tests -->
-    </test> <!-- groupingtests -->
-  </suite> <!-- groupingsuit -->
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pom.Login_Test_Pom@333d4a8c]" started-at="2025-05-28T13:53:17 IST" name="tearDown" finished-at="2025-05-28T13:53:18 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pom.Login_Test_Pom -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
